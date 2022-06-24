@@ -19,7 +19,6 @@ public class Student  implements Comparable<Student>{
 
         }
         return cgpa;
-
     }
 
     public Student(String name, double cgpa,int id) { // const oluşturuldu .
@@ -50,25 +49,4 @@ public class Student  implements Comparable<Student>{
             return 1;
 
     }
-    /*
-    if(cgpa == s.cgpa) // ortalama eşit ise
-        {
-            if(name.compareTo(s.name) == 0) // isimler eşit ise
-            {
-                if(id == s.id) // id ler eşit ise  :
-                    return 0;
-                else if (id > s.id)
-                    return 1;
-                else
-                    return -1;
-            }
-            else
-                return name.compareTo(s.name);
-        }
-        else if(cgpa > s.cgpa)
-            return -1;
-        else if(s.cgpa < 0 || s.cgpa > 4 )
-            return  -1 ;
-        else
-     */
 }
